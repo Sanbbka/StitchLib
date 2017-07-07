@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABAD639A786BE71C685C141 /* libPods-Rolokys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A789444419CE9F0344FCF60E /* libPods-Rolokys.a */; };
+		2B22108D1EE3EAD700F93BBB /* IOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B22108C1EE3EAD700F93BBB /* IOManager.m */; };
+		2B2210901EE3EAEE00F93BBB /* PhotoManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B22108F1EE3EAEE00F93BBB /* PhotoManager.mm */; };
+		2B2210931EE3EB0200F93BBB /* CVManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B2210921EE3EB0200F93BBB /* CVManager.mm */; };
+		2BA4CCEB1E2F810000B47BCE /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4CCEA1E2F810000B47BCE /* PhotoModel.m */; };
+		2BA4CCEE1E2F84EF00B47BCE /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4CCED1E2F84EF00B47BCE /* UIColor+HexColor.m */; };
+		2BA4CCF01E2F866A00B47BCE /* EventAddDocCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA4CCEF1E2F866A00B47BCE /* EventAddDocCollCell.xib */; };
+		2BA4CCF21E2F86DB00B47BCE /* icon_plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA4CCF11E2F86DB00B47BCE /* icon_plus@2x.png */; };
+		2BC77E1E1DF9333800FC558A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E1D1DF9333800FC558A /* main.m */; };
+		2BC77E211DF9333800FC558A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E201DF9333800FC558A /* AppDelegate.m */; };
+		2BC77E291DF9333800FC558A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77E281DF9333800FC558A /* Assets.xcassets */; };
+		2BC77E2C1DF9333800FC558A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77E2A1DF9333800FC558A /* LaunchScreen.storyboard */; };
+		2BC77E371DF9333800FC558A /* RolokysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E361DF9333800FC558A /* RolokysTests.m */; };
+		2BC77E421DF9333800FC558A /* RolokysUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E411DF9333800FC558A /* RolokysUITests.m */; };
+		2BC77E581DF9334D00FC558A /* stitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E511DF9334D00FC558A /* stitching.cpp */; };
+		2BC77E591DF9334D00FC558A /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E541DF9334D00FC558A /* UIImage+Rotate.m */; };
+		2BC77E5D1DF9335400FC558A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E5C1DF9335400FC558A /* ViewController.m */; };
+		2BC77E601DF9335D00FC558A /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC77E5F1DF9335D00FC558A /* BaseVC.m */; };
+		2BC77E621DF936A900FC558A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77E611DF936A900FC558A /* Main.storyboard */; };
+		2BE972471EF55BE9003A103A /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BE972461EF55BE9003A103A /* UIImage+OpenCV.mm */; };
+		57DC59C0E3D29B5FDC799E49 /* libPods-RolokysUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4CE94AE40FA2C57FBA3FFF /* libPods-RolokysUITests.a */; };
+		C790CFF1336BD7CD852B6D54 /* libPods-RolokysTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6C7634FED55EA12842372 /* libPods-RolokysTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BC77E331DF9333800FC558A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BC77E111DF9333800FC558A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BC77E181DF9333800FC558A;
+			remoteInfo = Rolokys;
+		};
+		2BC77E3E1DF9333800FC558A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BC77E111DF9333800FC558A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BC77E181DF9333800FC558A;
+			remoteInfo = Rolokys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A6C7634FED55EA12842372 /* libPods-RolokysTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RolokysTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2293A73D38E190E7C849039A /* Pods-RolokysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolokysUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolokysUITests/Pods-RolokysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B22108B1EE3EAD700F93BBB /* IOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOManager.h; sourceTree = "<group>"; };
+		2B22108C1EE3EAD700F93BBB /* IOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOManager.m; sourceTree = "<group>"; };
+		2B22108E1EE3EAEE00F93BBB /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		2B22108F1EE3EAEE00F93BBB /* PhotoManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhotoManager.mm; sourceTree = "<group>"; };
+		2B2210911EE3EB0200F93BBB /* CVManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVManager.h; sourceTree = "<group>"; };
+		2B2210921EE3EB0200F93BBB /* CVManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVManager.mm; sourceTree = "<group>"; };
+		2BA4CCE91E2F810000B47BCE /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		2BA4CCEA1E2F810000B47BCE /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		2BA4CCEC1E2F84EF00B47BCE /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		2BA4CCED1E2F84EF00B47BCE /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		2BA4CCEF1E2F866A00B47BCE /* EventAddDocCollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventAddDocCollCell.xib; sourceTree = "<group>"; };
+		2BA4CCF11E2F86DB00B47BCE /* icon_plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_plus@2x.png"; sourceTree = "<group>"; };
+		2BC77E191DF9333800FC558A /* Rolokys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolokys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC77E1D1DF9333800FC558A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BC77E1F1DF9333800FC558A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BC77E201DF9333800FC558A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BC77E281DF9333800FC558A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BC77E2B1DF9333800FC558A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BC77E2D1DF9333800FC558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC77E321DF9333800FC558A /* RolokysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolokysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC77E361DF9333800FC558A /* RolokysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolokysTests.m; sourceTree = "<group>"; };
+		2BC77E381DF9333800FC558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC77E3D1DF9333800FC558A /* RolokysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolokysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC77E411DF9333800FC558A /* RolokysUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolokysUITests.m; sourceTree = "<group>"; };
+		2BC77E431DF9333800FC558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC77E511DF9334D00FC558A /* stitching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stitching.cpp; sourceTree = "<group>"; };
+		2BC77E521DF9334D00FC558A /* stitching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stitching.h; sourceTree = "<group>"; };
+		2BC77E531DF9334D00FC558A /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		2BC77E541DF9334D00FC558A /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		2BC77E5B1DF9335400FC558A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BC77E5C1DF9335400FC558A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BC77E5E1DF9335D00FC558A /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		2BC77E5F1DF9335D00FC558A /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		2BC77E611DF936A900FC558A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2BE972461EF55BE9003A103A /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		2BE9724A1EF55CB8003A103A /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		2E6F31129D97A2CAF53C79E9 /* Pods-Rolokys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolokys.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rolokys/Pods-Rolokys.release.xcconfig"; sourceTree = "<group>"; };
+		336340A61AFD59171ADAA852 /* Pods-Rolokys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolokys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rolokys/Pods-Rolokys.debug.xcconfig"; sourceTree = "<group>"; };
+		54F8B4A9A05D6BE6830DC42B /* Pods-RolokysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolokysUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolokysUITests/Pods-RolokysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6618DD8F6FD21C705E3D952E /* Pods-RolokysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolokysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolokysTests/Pods-RolokysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4CE94AE40FA2C57FBA3FFF /* libPods-RolokysUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RolokysUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A789444419CE9F0344FCF60E /* libPods-Rolokys.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rolokys.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC96BAF80C8EE2B3920A2A9 /* Pods-RolokysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolokysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolokysTests/Pods-RolokysTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BC77E161DF9333800FC558A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAD639A786BE71C685C141 /* libPods-Rolokys.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC77E2F1DF9333800FC558A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C790CFF1336BD7CD852B6D54 /* libPods-RolokysTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC77E3A1DF9333800FC558A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DC59C0E3D29B5FDC799E49 /* libPods-RolokysUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B22108A1EE3EA9C00F93BBB /* StitchLib */ = {
+			isa = PBXGroup;
+			children = (
+				2B22108B1EE3EAD700F93BBB /* IOManager.h */,
+				2B22108C1EE3EAD700F93BBB /* IOManager.m */,
+				2B22108E1EE3EAEE00F93BBB /* PhotoManager.h */,
+				2B22108F1EE3EAEE00F93BBB /* PhotoManager.mm */,
+				2B2210911EE3EB0200F93BBB /* CVManager.h */,
+				2B2210921EE3EB0200F93BBB /* CVManager.mm */,
+				2BE972451EF55BC3003A103A /* Helpers */,
+			);
+			name = StitchLib;
+			sourceTree = "<group>";
+		};
+		2BA4CCE51E2F7E3A00B47BCE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2BA4CCEC1E2F84EF00B47BCE /* UIColor+HexColor.h */,
+				2BA4CCED1E2F84EF00B47BCE /* UIColor+HexColor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2BA4CCE61E2F7E4D00B47BCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E1F1DF9333800FC558A /* AppDelegate.h */,
+				2BC77E201DF9333800FC558A /* AppDelegate.m */,
+				2BA4CCE91E2F810000B47BCE /* PhotoModel.h */,
+				2BA4CCEA1E2F810000B47BCE /* PhotoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2BA4CCE71E2F7E6E00B47BCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E5E1DF9335D00FC558A /* BaseVC.h */,
+				2BC77E5F1DF9335D00FC558A /* BaseVC.m */,
+				2BC77E5B1DF9335400FC558A /* ViewController.h */,
+				2BC77E5C1DF9335400FC558A /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2BA4CCE81E2F7EE600B47BCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E611DF936A900FC558A /* Main.storyboard */,
+				2BA4CCEF1E2F866A00B47BCE /* EventAddDocCollCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2BC77E101DF9333800FC558A = {
+			isa = PBXGroup;
+			children = (
+				2BC77E1B1DF9333800FC558A /* Rolokys */,
+				2BC77E351DF9333800FC558A /* RolokysTests */,
+				2BC77E401DF9333800FC558A /* RolokysUITests */,
+				2BC77E1A1DF9333800FC558A /* Products */,
+				3BC328871BFBC4CB0576A789 /* Pods */,
+				B835C9B9E598DB975F25E9E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BC77E1A1DF9333800FC558A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E191DF9333800FC558A /* Rolokys.app */,
+				2BC77E321DF9333800FC558A /* RolokysTests.xctest */,
+				2BC77E3D1DF9333800FC558A /* RolokysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BC77E1B1DF9333800FC558A /* Rolokys */ = {
+			isa = PBXGroup;
+			children = (
+				2B22108A1EE3EA9C00F93BBB /* StitchLib */,
+				2BA4CCE81E2F7EE600B47BCE /* View */,
+				2BA4CCE61E2F7E4D00B47BCE /* Model */,
+				2BA4CCE71E2F7E6E00B47BCE /* Controllers */,
+				2BA4CCE51E2F7E3A00B47BCE /* Categories */,
+				2BC77E1C1DF9333800FC558A /* Supporting Files */,
+			);
+			path = Rolokys;
+			sourceTree = "<group>";
+		};
+		2BC77E1C1DF9333800FC558A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA4CCF11E2F86DB00B47BCE /* icon_plus@2x.png */,
+				2BC77E2D1DF9333800FC558A /* Info.plist */,
+				2BC77E2A1DF9333800FC558A /* LaunchScreen.storyboard */,
+				2BC77E281DF9333800FC558A /* Assets.xcassets */,
+				2BC77E1D1DF9333800FC558A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BC77E351DF9333800FC558A /* RolokysTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E361DF9333800FC558A /* RolokysTests.m */,
+				2BC77E381DF9333800FC558A /* Info.plist */,
+			);
+			path = RolokysTests;
+			sourceTree = "<group>";
+		};
+		2BC77E401DF9333800FC558A /* RolokysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E411DF9333800FC558A /* RolokysUITests.m */,
+				2BC77E431DF9333800FC558A /* Info.plist */,
+			);
+			path = RolokysUITests;
+			sourceTree = "<group>";
+		};
+		2BE972451EF55BC3003A103A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2BE9724B1EF55ED8003A103A /* Stitch */,
+				2BC77E531DF9334D00FC558A /* UIImage+Rotate.h */,
+				2BC77E541DF9334D00FC558A /* UIImage+Rotate.m */,
+				2BE9724A1EF55CB8003A103A /* UIImage+OpenCV.h */,
+				2BE972461EF55BE9003A103A /* UIImage+OpenCV.mm */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		2BE9724B1EF55ED8003A103A /* Stitch */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77E511DF9334D00FC558A /* stitching.cpp */,
+				2BC77E521DF9334D00FC558A /* stitching.h */,
+			);
+			name = Stitch;
+			sourceTree = "<group>";
+		};
+		3BC328871BFBC4CB0576A789 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				336340A61AFD59171ADAA852 /* Pods-Rolokys.debug.xcconfig */,
+				2E6F31129D97A2CAF53C79E9 /* Pods-Rolokys.release.xcconfig */,
+				6618DD8F6FD21C705E3D952E /* Pods-RolokysTests.debug.xcconfig */,
+				EFC96BAF80C8EE2B3920A2A9 /* Pods-RolokysTests.release.xcconfig */,
+				2293A73D38E190E7C849039A /* Pods-RolokysUITests.debug.xcconfig */,
+				54F8B4A9A05D6BE6830DC42B /* Pods-RolokysUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B835C9B9E598DB975F25E9E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A789444419CE9F0344FCF60E /* libPods-Rolokys.a */,
+				07A6C7634FED55EA12842372 /* libPods-RolokysTests.a */,
+				7D4CE94AE40FA2C57FBA3FFF /* libPods-RolokysUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BC77E181DF9333800FC558A /* Rolokys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC77E461DF9333800FC558A /* Build configuration list for PBXNativeTarget "Rolokys" */;
+			buildPhases = (
+				890593B1E5A6FDDCF8ACE4CC /* [CP] Check Pods Manifest.lock */,
+				2BC77E151DF9333800FC558A /* Sources */,
+				2BC77E161DF9333800FC558A /* Frameworks */,
+				2BC77E171DF9333800FC558A /* Resources */,
+				0F75940F66C5428F42BD190E /* [CP] Embed Pods Frameworks */,
+				A79DF355987097253FC03FCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rolokys;
+			productName = Rolokys;
+			productReference = 2BC77E191DF9333800FC558A /* Rolokys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BC77E311DF9333800FC558A /* RolokysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC77E491DF9333800FC558A /* Build configuration list for PBXNativeTarget "RolokysTests" */;
+			buildPhases = (
+				1AC51D3005F5BF36870C0C17 /* [CP] Check Pods Manifest.lock */,
+				2BC77E2E1DF9333800FC558A /* Sources */,
+				2BC77E2F1DF9333800FC558A /* Frameworks */,
+				2BC77E301DF9333800FC558A /* Resources */,
+				935E1A4E8F9C7592F7992D06 /* [CP] Embed Pods Frameworks */,
+				24EE546C76ABE261863F16DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BC77E341DF9333800FC558A /* PBXTargetDependency */,
+			);
+			name = RolokysTests;
+			productName = RolokysTests;
+			productReference = 2BC77E321DF9333800FC558A /* RolokysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BC77E3C1DF9333800FC558A /* RolokysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC77E4C1DF9333800FC558A /* Build configuration list for PBXNativeTarget "RolokysUITests" */;
+			buildPhases = (
+				11D1A8E2D728315ED28436AF /* [CP] Check Pods Manifest.lock */,
+				2BC77E391DF9333800FC558A /* Sources */,
+				2BC77E3A1DF9333800FC558A /* Frameworks */,
+				2BC77E3B1DF9333800FC558A /* Resources */,
+				9AB669A980BF81E5236F3221 /* [CP] Embed Pods Frameworks */,
+				22F2DAE2BBF4AF80F7309188 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BC77E3F1DF9333800FC558A /* PBXTargetDependency */,
+			);
+			name = RolokysUITests;
+			productName = RolokysUITests;
+			productReference = 2BC77E3D1DF9333800FC558A /* RolokysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BC77E111DF9333800FC558A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexandr Drovnyashin";
+				TargetAttributes = {
+					2BC77E181DF9333800FC558A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UBXCC45PP4;
+						ProvisioningStyle = Automatic;
+					};
+					2BC77E311DF9333800FC558A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UBXCC45PP4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BC77E181DF9333800FC558A;
+					};
+					2BC77E3C1DF9333800FC558A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UBXCC45PP4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BC77E181DF9333800FC558A;
+					};
+				};
+			};
+			buildConfigurationList = 2BC77E141DF9333800FC558A /* Build configuration list for PBXProject "Rolokys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BC77E101DF9333800FC558A;
+			productRefGroup = 2BC77E1A1DF9333800FC558A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BC77E181DF9333800FC558A /* Rolokys */,
+				2BC77E311DF9333800FC558A /* RolokysTests */,
+				2BC77E3C1DF9333800FC558A /* RolokysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BC77E171DF9333800FC558A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC77E621DF936A900FC558A /* Main.storyboard in Resources */,
+				2BC77E2C1DF9333800FC558A /* LaunchScreen.storyboard in Resources */,
+				2BC77E291DF9333800FC558A /* Assets.xcassets in Resources */,
+				2BA4CCF01E2F866A00B47BCE /* EventAddDocCollCell.xib in Resources */,
+				2BA4CCF21E2F86DB00B47BCE /* icon_plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC77E301DF9333800FC558A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC77E3B1DF9333800FC558A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F75940F66C5428F42BD190E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rolokys/Pods-Rolokys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11D1A8E2D728315ED28436AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC51D3005F5BF36870C0C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22F2DAE2BBF4AF80F7309188 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolokysUITests/Pods-RolokysUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24EE546C76ABE261863F16DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolokysTests/Pods-RolokysTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890593B1E5A6FDDCF8ACE4CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		935E1A4E8F9C7592F7992D06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolokysTests/Pods-RolokysTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB669A980BF81E5236F3221 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolokysUITests/Pods-RolokysUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79DF355987097253FC03FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rolokys/Pods-Rolokys-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BC77E151DF9333800FC558A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC77E5D1DF9335400FC558A /* ViewController.m in Sources */,
+				2BE972471EF55BE9003A103A /* UIImage+OpenCV.mm in Sources */,
+				2BC77E211DF9333800FC558A /* AppDelegate.m in Sources */,
+				2B2210931EE3EB0200F93BBB /* CVManager.mm in Sources */,
+				2BC77E1E1DF9333800FC558A /* main.m in Sources */,
+				2BC77E591DF9334D00FC558A /* UIImage+Rotate.m in Sources */,
+				2B22108D1EE3EAD700F93BBB /* IOManager.m in Sources */,
+				2B2210901EE3EAEE00F93BBB /* PhotoManager.mm in Sources */,
+				2BC77E581DF9334D00FC558A /* stitching.cpp in Sources */,
+				2BA4CCEE1E2F84EF00B47BCE /* UIColor+HexColor.m in Sources */,
+				2BC77E601DF9335D00FC558A /* BaseVC.m in Sources */,
+				2BA4CCEB1E2F810000B47BCE /* PhotoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC77E2E1DF9333800FC558A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC77E371DF9333800FC558A /* RolokysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC77E391DF9333800FC558A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC77E421DF9333800FC558A /* RolokysUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BC77E341DF9333800FC558A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BC77E181DF9333800FC558A /* Rolokys */;
+			targetProxy = 2BC77E331DF9333800FC558A /* PBXContainerItemProxy */;
+		};
+		2BC77E3F1DF9333800FC558A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BC77E181DF9333800FC558A /* Rolokys */;
+			targetProxy = 2BC77E3E1DF9333800FC558A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BC77E2A1DF9333800FC558A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BC77E2B1DF9333800FC558A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BC77E441DF9333800FC558A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BC77E451DF9333800FC558A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BC77E471DF9333800FC558A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336340A61AFD59171ADAA852 /* Pods-Rolokys.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UBXCC45PP4;
+				INFOPLIST_FILE = Rolokys/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alx.Rolokys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BC77E481DF9333800FC558A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6F31129D97A2CAF53C79E9 /* Pods-Rolokys.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UBXCC45PP4;
+				INFOPLIST_FILE = Rolokys/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alx.Rolokys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BC77E4A1DF9333800FC558A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6618DD8F6FD21C705E3D952E /* Pods-RolokysTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UBXCC45PP4;
+				INFOPLIST_FILE = RolokysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alx.RolokysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolokys.app/Rolokys";
+			};
+			name = Debug;
+		};
+		2BC77E4B1DF9333800FC558A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC96BAF80C8EE2B3920A2A9 /* Pods-RolokysTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UBXCC45PP4;
+				INFOPLIST_FILE = RolokysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alx.RolokysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolokys.app/Rolokys";
+			};
+			name = Release;
+		};
+		2BC77E4D1DF9333800FC558A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2293A73D38E190E7C849039A /* Pods-RolokysUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UBXCC45PP4;
+				INFOPLIST_FILE = RolokysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alx.RolokysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rolokys;
+			};
+			name = Debug;
+		};
+		2BC77E4E1DF9333800FC558A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F8B4A9A05D6BE6830DC42B /* Pods-RolokysUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UBXCC45PP4;
+				INFOPLIST_FILE = RolokysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alx.RolokysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rolokys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BC77E141DF9333800FC558A /* Build configuration list for PBXProject "Rolokys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC77E441DF9333800FC558A /* Debug */,
+				2BC77E451DF9333800FC558A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BC77E461DF9333800FC558A /* Build configuration list for PBXNativeTarget "Rolokys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC77E471DF9333800FC558A /* Debug */,
+				2BC77E481DF9333800FC558A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BC77E491DF9333800FC558A /* Build configuration list for PBXNativeTarget "RolokysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC77E4A1DF9333800FC558A /* Debug */,
+				2BC77E4B1DF9333800FC558A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BC77E4C1DF9333800FC558A /* Build configuration list for PBXNativeTarget "RolokysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC77E4D1DF9333800FC558A /* Debug */,
+				2BC77E4E1DF9333800FC558A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BC77E111DF9333800FC558A /* Project object */;
+}
